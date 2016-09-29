@@ -1,5 +1,8 @@
-var express = require('express');
-var morgan = require('morgan');
+//server.js is the file executed & the source code of the web server
+
+// These are the libraries that are required to 
+var express = require('express'); // This is the library used to create the web server which handles http connection & listens on the port.
+var morgan = require('morgan'); //This helps output logs of the server
 var path = require('path');
 
 var app = express();
